@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+   <div class="container">
+       <h2>Currency Converter</h2>
+     <form>
+        <div class="amount">
+            <p>Enter Amount</p>
+            <input type="text" value = "">
+        </div>
+        <div class="dropdown">
+            <div class="from">
+                <P>From</P>
+             <div class="select-container">
+            <img src="https://flagsapi.com/US/flat/64.png" alt="no image">
+            <select name="from" >
+               </select>
+               </div>
+            </div>
+        
+        <i class="fa-solid fa-arrow-right-arrow-left"></i>
+            <div class="to">
+                <p>To</p>
+                <div class="select-container">
+                    <img src="https://flagsapi.com/PK/flat/64.png" alt="no image">
+                    <select name="to" >
+                    </select>
+                </div>
+            </div>
+
+
+            </div>
+           
+        <div class="msg">1USD = 285PKR</div>
+       <button>Get Exchange Rate</button>
+     </form>
+   </div>
+
+   <script src="codes.js"></script>
+   <script src="app.js"></script>
+   
+</body>
+</html>
